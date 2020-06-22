@@ -1,0 +1,14 @@
+mode: auto
+silent: true
+branchName: tiny
+autoCloseIssue: true
+branches:
+  - label: 'enhancement'
+    prefix: 'feature/${issue.user.login}/'
+    name: development
+  - label: 'bug'
+    prefix: 'bugfix/${issue.user.login}/'
+    name: development
+  - label: '*'
+    prefix: 'issues/${issue.user.login}/'
+    name: development

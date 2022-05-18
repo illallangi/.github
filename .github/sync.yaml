@@ -4,5 +4,20 @@ group:
   - dest: .
     source: template/
   repos: |
+    illallangi/caddy
+    illallangi/caddy-builder
+    illallangi/confd-builder
+    illallangi/coredns-notifier
     illallangi/deluge
+    illallangi/deluge-distributr
+    illallangi/dimension
+    illallangi/harvestr
+    illallangi/ios2mqtt
+    illallangi/php-base
     illallangi/samba-daemon
+    illallangi/telegraf-base
+    illallangi/telegraf-gazelle
+    illallangi/telegraf-stocks
+    illallangi/telegraf-uptimerobot
+    illallangi/toolbx
+    illallangi/zenphoto

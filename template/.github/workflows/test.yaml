@@ -26,6 +26,9 @@ jobs:
       with:
         fail_on_error: "true"
         filter_mode: nofilter
+        exclude: |
+          fontawesome-all.min.css
+          *.svg
     - uses: reviewdog/action-suggester@v1
   lint-yaml:  # https://github.com/reviewdog/action-yamllint
     runs-on: ubuntu-latest

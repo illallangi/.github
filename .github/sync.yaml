@@ -1,0 +1,8 @@
+---
+group:
+  files:
+  - dest: /
+    source: template/
+  repos: |
+    illallangi/deluge-daemon
+    illallangi/samba-daemon

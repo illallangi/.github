@@ -4,5 +4,5 @@ group:
   - dest: /
     source: template/
   repos: |
-    illallangi/deluge-daemon
+    illallangi/deluge
     illallangi/samba-daemon

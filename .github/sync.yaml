@@ -6,14 +6,17 @@ group:
   repos: |
     illallangi/caddy
     illallangi/caddy-builder
+    illallangi/cloudflarerecord-controller
     illallangi/confd-builder
     illallangi/coredns-notifier
     illallangi/deluge
     illallangi/deluge-distributr
     illallangi/dimension
+    illallangi/dnsrpzrecord-controller
     illallangi/harvestr
     illallangi/ios2mqtt
     illallangi/php-base
+    illallangi/rpzhole-controller
     illallangi/samba-daemon
     illallangi/telegraf-base
     illallangi/telegraf-gazelle

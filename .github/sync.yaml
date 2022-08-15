@@ -14,6 +14,7 @@ group:
     illallangi/dimension
     illallangi/dnsrpzrecord-controller
     illallangi/harvestr
+    illallangi/icecast
     illallangi/ios2mqtt
     illallangi/php-base
     illallangi/rpzhole-controller

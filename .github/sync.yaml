@@ -5,9 +5,7 @@ group:
     source: template/
   repos: |
     illallangi/caddy
-    illallangi/caddy-builder
     illallangi/cloudflarerecord-controller
-    illallangi/confd-builder
     illallangi/coredns-notifier
     illallangi/deluge
     illallangi/deluge-distributr
@@ -15,14 +13,10 @@ group:
     illallangi/dnsrpzrecord-controller
     illallangi/harvestr
     illallangi/icecast
-    illallangi/ios2mqtt
-    illallangi/php-base
     illallangi/rpzhole-controller
     illallangi/samba-daemon
     illallangi/telegraf-base
     illallangi/telegraf-gazelle
     illallangi/telegraf-stocks
     illallangi/telegraf-uptimerobot
-    illallangi/tripit
     illallangi/toolbx
-    illallangi/zenphoto

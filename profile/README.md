@@ -13,9 +13,7 @@
   * [Deluge Distributr](https://github.com/illallangi/deluge-distributr)
 * [Dimension](https://github.com/illallangi/dimension)
 * [Harvestr](https://github.com/illallangi/harvestr)
-* [IOS 2 MQTT](https://github.com/illallangi/ios2mqtt)
-* [PHP Base Image](https://github.com/illallangi/php-base), used by:
-  * [Zen Photo](https://github.com/illallangi/zenphoto)
+* [IceCast](https://github.com/illallangi/icecast)
 * [Samba Daemon](https://github.com/illallangi/samba-daemon)
 * [Telegraf Base Image](https://github.com/illallangi/telegraf-base), used by:
   * [Telegraf Gazelle](https://github.com/illallangi/telegraf-gazelle)

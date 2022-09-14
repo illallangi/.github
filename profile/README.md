@@ -9,7 +9,7 @@
   * 🏡 [Dimension](https://github.com/illallangi/dimension) 🧰
   * ❄️ [IceCast](https://github.com/illallangi/icecast) 🧰
   * ➕ [RPZ Hole Controller](https://github.com/illallangi/rpzhole-controller)
-  * 📂 [Samba Daemon](https://github.com/illallangi/samba-daemon) 🧰
+  * 📂 [Samba](https://github.com/illallangi/samba) 🧰
   * 🧰 [Toolbx](https://github.com/illallangi/toolbx) 🐋
 * 🐍 Python 3.10.7
   * 🌥️ [CloudFlare Record Controller](https://github.com/illallangi/cloudflarerecord-controller)

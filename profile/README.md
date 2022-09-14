@@ -17,7 +17,7 @@
   * 🚚 [Deluge Distributr](https://github.com/illallangi/deluge-distributr) 🧰
   * 🕳️ [DNS RPZ Record Controller](https://github.com/illallangi/dnsrpzrecord-controller)
   * 🚜 [Harvestr](https://github.com/illallangi/harvestr)
-  * 🐳 [Telegraf Base](https://github.com/illallangi/telegraf-base)
+  * 🐳 [Telegraf](https://github.com/illallangi/telegraf)
     * 🦒 [Telegraf Gazelle](https://github.com/illallangi/telegraf-gazelle)
     * 🧦 [Telegraf Stocks](https://github.com/illallangi/telegraf-stocks)
     * 🤖 [Telegraf UptimeRobot](https://github.com/illallangi/telegraf-uptimerobot)

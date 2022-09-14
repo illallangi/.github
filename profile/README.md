@@ -1,4 +1,4 @@
-## Illallangi Enterprises👋
+# Illallangi Enterprises👋
 
 [All open PRs](https://github.com/pulls?q=is%3Aopen+is%3Apr+org%3Aillallangi)
 
@@ -17,7 +17,7 @@
   * 🚚 [Deluge Distributr](https://github.com/illallangi/deluge-distributr) 🧰
   * 🕳️ [DNS RPZ Record Controller](https://github.com/illallangi/dnsrpzrecord-controller)
   * 🚜 [Harvestr](https://github.com/illallangi/harvestr)
-  * 🐳 [Telegraf](https://github.com/illallangi/telegraf)
+  * 🔦 [Telegraf](https://github.com/illallangi/telegraf)
     * 🦒 [Telegraf Gazelle](https://github.com/illallangi/telegraf-gazelle)
     * 🧦 [Telegraf Stocks](https://github.com/illallangi/telegraf-stocks)
     * 🤖 [Telegraf UptimeRobot](https://github.com/illallangi/telegraf-uptimerobot)

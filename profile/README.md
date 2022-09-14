@@ -3,9 +3,7 @@
 [All open PRs](https://github.com/pulls?q=is%3Aopen+is%3Apr+org%3Aillallangi)
 
 * [Caddy](https://github.com/illallangi/caddy)
-  * Built by [Caddy Builder](https://github.com/illallangi/caddy-builder)
 * [cloudflarerecord-controller](https://github.com/illallangi/cloudflarerecord-controller)
-* [Confd Builder](https://github.com/illallangi/confd-builder), used by many Illallangi images
 * [Core DNS Notifier](https://github.com/illallangi/coredns-notifier), used by:
   * [DNS RPZ Record Controller](https://github.com/illallangi/dnsrpzrecord-controller)
   * [RPZ Hole Controller](https://github.com/illallangi/rpzhole-controller)

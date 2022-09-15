@@ -7,12 +7,14 @@ group:
     illallangi/caddy
     illallangi/cloudflarerecord-controller
     illallangi/coredns-notifier
+    illallangi/debian
     illallangi/deluge
     illallangi/deluge-distributr
     illallangi/dimension
     illallangi/dnsrpzrecord-controller
     illallangi/harvestr
     illallangi/icecast
+    illallangi/python
     illallangi/rpzhole-controller
     illallangi/samba-daemon
     illallangi/telegraf-base

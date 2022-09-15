@@ -4,15 +4,15 @@
 
 | Image Name | Referenced Images | Configuration Management | PID 1
 |------------|-------------------|--------------------------|-------
-| 🐧 Debian Buster 20220912 | - | - | bash |
-| - 🕸️ [Caddy](https://github.com/illallangi/caddy) | 🧰🐧 | confd | s6 |
+| 🐧 [Debian](https://github.com/illallangi/debian) | - | - | bash |
+| - 🕸️ [Caddy](https://github.com/illallangi/caddy) | 🧰🐋 | confd | s6 |
 | - 🔔 [Core DNS Notifier](https://github.com/illallangi/coredns-notifier) | 🧰🐋 | confd | custom-entrypoint |
 | - 🏡 [Dimension](https://github.com/illallangi/dimension) | 🧰 | confd | s6 |
 | - ❄️ [IceCast](https://github.com/illallangi/icecast) | 🧰 | confd | s6 |
 | - ➕ [RPZ Hole Controller](https://github.com/illallangi/rpzhole-controller) | - | - | custom-entrypoint |
 | - 📂 [Samba](https://github.com/illallangi/samba) | 🧰 | confd | s6 |
 | - 🧰 [Toolbx](https://github.com/illallangi/toolbx) | 🐋 | - | dumb-init |
-| 🐍 Python 3.10.7 | - | - | python |
+| 🐍 [Python](https://github.com/illallangi/python) | - | - | python |
 | - 🌥️ [CloudFlare Record Controller](https://github.com/illallangi/cloudflarerecord-controller) | - | - | kopf |
 | - 🏴‍☠️ [Deluge](https://github.com/illallangi/deluge) | 🧰 | confd | custom-entrypoint |
 | - 🚚 [Deluge Distributr](https://github.com/illallangi/deluge-distributr) | 🧰 | - | custom-entrypoint |

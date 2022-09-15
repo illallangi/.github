@@ -5,7 +5,7 @@
 | Image Name | Referenced Images | Configuration Management | PID 1
 |------------|-------------------|--------------------------|-------
 | 🐧 [Debian](https://github.com/illallangi/debian) | - | - | bash |
-| - 🕸️ [Caddy](https://github.com/illallangi/caddy) | 🧰🐋 | confd | s6 |
+| - 🕸️ [Caddy](https://github.com/illallangi/caddy) | 🐋 | confd | s6 |
 | - 🔔 [Core DNS Notifier](https://github.com/illallangi/coredns-notifier) | 🧰🐋 | confd | custom-entrypoint |
 | - 🏡 [Dimension](https://github.com/illallangi/dimension) | 🧰 | confd | s6 |
 | - ❄️ [IceCast](https://github.com/illallangi/icecast) | 🧰 | confd | s6 |

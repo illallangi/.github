@@ -4,7 +4,7 @@
 
 | Image Name | Referenced Images | Configuration Management | PID 1
 |------------|-------------------|--------------------------|-------
-| 🐧 [Debian](https://github.com/illallangi/debian) | - | - | bash |
+| 🐧 [Debian](https://github.com/illallangi/debian) | - | - | s6 |
 | - 🕸️ [Caddy](https://github.com/illallangi/caddy) | [go-httpbin:v2.4.1](https://hub.docker.com/r/mccutchen/go-httpbin)<br/>[caddy:2.5.2-builder](https://hub.docker.com/_/caddy) | confd | s6 |
 | - 🔔 [Core DNS Notifier](https://github.com/illallangi/coredns-notifier) | [coredns:1.9.4](https://hub.docker.com/r/coredns/coredns) | confd | s6 |
 | - 🏡 [Dimension](https://github.com/illallangi/dimension) | - | confd | s6 |

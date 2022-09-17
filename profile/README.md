@@ -11,7 +11,7 @@
 | - ❄️ [IceCast](https://github.com/illallangi/icecast) | - | confd | s6 |
 | - ➕ [RPZ Hole Controller](https://github.com/illallangi/rpzhole-controller) | - | - | custom-entrypoint |
 | - 📂 [Samba](https://github.com/illallangi/samba) | - | confd | s6 |
-| - 🧰 [Toolbx](https://github.com/illallangi/toolbx) | - | - | dumb-init |
+| - 🧰 [Toolbx](https://github.com/illallangi/toolbx) | [healthz:2022-03-11T125439Z](https://github.com/binkhq/healthz) | - | dumb-init |
 | 🐍 [Python](https://github.com/illallangi/python) | - | - | python |
 | - 🌥️ [CloudFlare Record Controller](https://github.com/illallangi/cloudflarerecord-controller) | - | - | kopf |
 | - 🏴‍☠️ [Deluge](https://github.com/illallangi/deluge) | 🧰 | confd | custom-entrypoint |

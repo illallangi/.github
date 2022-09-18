@@ -16,8 +16,8 @@ group:
     illallangi/icecast
     illallangi/python
     illallangi/rpzhole-controller
-    illallangi/samba-daemon
-    illallangi/telegraf-base
+    illallangi/samba
+    illallangi/telegraf
     illallangi/telegraf-gazelle
     illallangi/telegraf-stocks
     illallangi/telegraf-uptimerobot

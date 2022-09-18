@@ -11,6 +11,10 @@
 | - ❄️ [IceCast](https://github.com/illallangi/icecast) | - | confd | s6 |
 | - ➕ [RPZ Hole Controller](https://github.com/illallangi/rpzhole-controller) | - | - | custom-entrypoint |
 | - 📂 [Samba](https://github.com/illallangi/samba) | - | confd | s6 |
+| - 🔦 [Telegraf](https://github.com/illallangi/telegraf) | - | - | custom-entrypoint |
+| &nbsp; - 🦒 [Telegraf Gazelle](https://github.com/illallangi/telegraf-gazelle) | - | - | - |
+| &nbsp; - 🧦 [Telegraf Stocks](https://github.com/illallangi/telegraf-stocks) | - | - | - |
+| &nbsp; - 🤖 [Telegraf UptimeRobot](https://github.com/illallangi/telegraf-uptimerobot) | - | - | - |
 | - 🧰 [Toolbx](https://github.com/illallangi/toolbx) | [healthz:2022-03-11T125439Z](https://github.com/binkhq/healthz) | - | dumb-init |
 | 🐍 [Python](https://github.com/illallangi/python) | - | - | python |
 | - 🌥️ [CloudFlare Record Controller](https://github.com/illallangi/cloudflarerecord-controller) | - | - | kopf |
@@ -18,7 +22,3 @@
 | - 🚚 [Deluge Distributr](https://github.com/illallangi/deluge-distributr) | 🧰 | - | custom-entrypoint |
 | - 🕳️ [DNS RPZ Record Controller](https://github.com/illallangi/dnsrpzrecord-controller) | - | - | kopf |
 | - 🚜 [Harvestr](https://github.com/illallangi/harvestr) | - | - | custom-entrypoint |
-| - 🔦 [Telegraf](https://github.com/illallangi/telegraf) | - | - | custom-entrypoint |
-| &nbsp; - 🦒 [Telegraf Gazelle](https://github.com/illallangi/telegraf-gazelle) | - | - | - |
-| &nbsp; - 🧦 [Telegraf Stocks](https://github.com/illallangi/telegraf-stocks) | - | - | - |
-| &nbsp; - 🤖 [Telegraf UptimeRobot](https://github.com/illallangi/telegraf-uptimerobot) | - | - | - |

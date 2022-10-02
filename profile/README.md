@@ -14,7 +14,7 @@
 | - 📂 [Samba](https://github.com/illallangi/samba) | - | confd | s6 |
 | - 🔦 [Telegraf](https://github.com/illallangi/telegraf) | - | - | custom-entrypoint |
 | &nbsp; - 🦒 [Telegraf Gazelle](https://github.com/illallangi/telegraf-gazelle) | - | - | - |
-| &nbsp; - 🧦 [Telegraf Stocks](https://github.com/illallangi/telegraf-stocks) | - | - | - |
+| &nbsp; - 🧦 [Telegraf Stockdata](https://github.com/illallangi/telegraf-stockdata) | - | - | - |
 | &nbsp; - 🤖 [Telegraf UptimeRobot](https://github.com/illallangi/telegraf-uptimerobot) | - | - | - |
 | - 🧰 [Toolbx](https://github.com/illallangi/toolbx) | [healthz:2022-03-11T125439Z](https://github.com/binkhq/healthz) | - | dumb-init |
 | 🐍 [Python](https://github.com/illallangi/python) | - | - | python |

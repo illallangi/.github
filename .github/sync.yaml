@@ -21,6 +21,6 @@ group:
     illallangi/samba
     illallangi/telegraf
     illallangi/telegraf-gazelle
-    illallangi/telegraf-stocks
+    illallangi/telegraf-stockdata
     illallangi/telegraf-uptimerobot
     illallangi/toolbx

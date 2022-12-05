@@ -14,6 +14,7 @@ group:
     illallangi/dimension
     illallangi/dnsrpzrecord-controller
     illallangi/harvestr
+    illallangi/head-server
     illallangi/icecast
     illallangi/icons
     illallangi/python

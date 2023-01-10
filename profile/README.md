@@ -34,6 +34,7 @@
 | Application Name |
 |------------------|
 | [Deluge](https://github.com/illallangi/deluge-manifests)       |
+| [Frigate](https://github.com/illallangi/frigate-manifests)     |
 | [Shlink](https://github.com/illallangi/shlink-manifests)       |
 | [Unison](https://github.com/illallangi/unison-manifests)       |
 | [Wordpress](https://github.com/illallangi/wordpress-manifests) |

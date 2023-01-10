@@ -2,7 +2,7 @@
 group:
   files:
   - dest: .
-    source: template/
+    source: templates/docker/
   repos: |
     illallangi/caddy
     illallangi/cloudflarerecord-controller

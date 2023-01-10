@@ -10,9 +10,9 @@ jobs:
       uses: BetaHuhn/repo-file-sync-action@v1
       with:
         ASSIGNEES: andrewcole
-        CONFIG_PATH: .github/sync.yaml
+        CONFIG_PATH: templates/docker.yaml
         GH_PAT: ${{ secrets.GH_PAT }}
-name: Synchronise Files
+name: sync-docker
 on:
   push:
     branches:

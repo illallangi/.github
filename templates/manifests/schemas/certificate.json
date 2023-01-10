@@ -1,0 +1,225 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "additionalProperties": false,
+  "description": "A Certificate object",
+  "properties": {
+    "apiVersion": {
+      "enum": [
+        "cert-manager.io/v1"
+      ],
+      "type": "string"
+    },
+    "kind": {
+      "enum": [
+        "Certificate"
+      ],
+      "type": "string"
+    },
+    "metadata": {
+      "additionalProperties": false,
+      "properties": {
+        "labels": {
+          "additionalProperties": false,
+          "properties": {
+            "app.kubernetes.io/class": {
+              "type": "string"
+            },
+            "app.kubernetes.io/component": {
+              "type": "string"
+            },
+            "app.kubernetes.io/instance": {
+              "type": "string"
+            },
+            "app.kubernetes.io/name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "app.kubernetes.io/class",
+            "app.kubernetes.io/component",
+            "app.kubernetes.io/instance",
+            "app.kubernetes.io/name"
+          ],
+          "type": "object"
+        },
+        "name": {
+          "type": "string"
+        },
+        "namespace": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "labels",
+        "name",
+        "namespace"
+      ],
+      "type": "object"
+    },
+    "spec": {
+      "additionalProperties": false,
+      "properties": {
+        "commonName": {
+          "type": "string"
+        },
+        "dnsNames": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "issuerRef": {
+          "additionalProperties": false,
+          "properties": {
+            "kind": {
+              "enum": [
+                "ClusterIssuer"
+              ],
+              "type": "string"
+            },
+            "name": {
+              "enum": [
+                "internal-issuer",
+                "letsencrypt-issuer"
+              ],
+              "type": "string"
+            }
+          },
+          "required": [
+            "kind",
+            "name"
+          ],
+          "type": "object"
+        },
+        "privateKey": {
+          "oneOf": [
+            {
+              "additionalProperties": false,
+              "properties": {
+                "algorithm": {
+                  "enum": [
+                    "ECDSA"
+                  ],
+                  "type": "string"
+                },
+                "rotationPolicy": {
+                  "enum": [
+                    "Always"
+                  ],
+                  "type": "string"
+                },
+                "size": {
+                  "enum": [
+                    384
+                  ],
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "algorithm",
+                "rotationPolicy",
+                "size"
+              ],
+              "type": "object"
+            },
+            {
+              "additionalProperties": false,
+              "properties": {
+                "algorithm": {
+                  "enum": [
+                    "RSA"
+                  ],
+                  "type": "string"
+                },
+                "rotationPolicy": {
+                  "enum": [
+                    "Always"
+                  ],
+                  "type": "string"
+                },
+                "size": {
+                  "enum": [
+                    4096
+                  ],
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "algorithm",
+                "rotationPolicy",
+                "size"
+              ],
+              "type": "object"
+            }
+          ]
+        },
+        "secretName": {
+          "type": "string"
+        },
+        "secretTemplate": {
+          "additionalProperties": false,
+          "properties": {
+            "labels": {
+              "additionalProperties": false,
+              "properties": {
+                "app.kubernetes.io/class": {
+                  "type": "string"
+                },
+                "app.kubernetes.io/component": {
+                  "type": "string"
+                },
+                "app.kubernetes.io/instance": {
+                  "type": "string"
+                },
+                "app.kubernetes.io/name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "app.kubernetes.io/name"
+              ],
+              "type": "object"
+            }
+          },
+          "required": [
+            "labels"
+          ],
+          "type": "object"
+        },
+        "subject": {
+          "additionalProperties": false,
+          "properties": {
+            "organizations": {
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "organizations"
+          ],
+          "type": "object"
+        }
+      },
+      "required": [
+        "commonName",
+        "dnsNames",
+        "issuerRef",
+        "privateKey",
+        "secretName",
+        "secretTemplate",
+        "subject"
+      ],
+      "type": "object"
+    }
+  },
+  "required": [
+    "apiVersion",
+    "kind",
+    "metadata",
+    "spec"
+  ],
+  "title": "Certificate",
+  "type": "object"
+}

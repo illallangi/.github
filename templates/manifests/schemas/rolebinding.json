@@ -1,0 +1,104 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "additionalProperties": false,
+  "description": "A RoleBinding object",
+  "properties": {
+    "apiVersion": {
+      "enum": [
+        "rbac.authorization.k8s.io/v1"
+      ],
+      "type": "string"
+    },
+    "kind": {
+      "enum": [
+        "RoleBinding"
+      ],
+      "type": "string"
+    },
+    "metadata": {
+      "additionalProperties": false,
+      "properties": {
+        "labels": {
+          "additionalProperties": false,
+          "properties": {
+            "app.kubernetes.io/class": {
+              "type": "string"
+            },
+            "app.kubernetes.io/component": {
+              "type": "string"
+            },
+            "app.kubernetes.io/instance": {
+              "type": "string"
+            },
+            "app.kubernetes.io/name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "app.kubernetes.io/class",
+            "app.kubernetes.io/component",
+            "app.kubernetes.io/instance",
+            "app.kubernetes.io/name"
+          ],
+          "type": "object"
+        },
+        "name": {
+          "type": "string"
+        },
+        "namespace": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "labels",
+        "name",
+        "namespace"
+      ],
+      "type": "object"
+    },
+    "roleRef": {
+      "additionalProperties": false,
+      "properties": {
+        "apiGroup": {
+          "type": "string"
+        },
+        "kind": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "apiGroup",
+        "kind",
+        "name"
+      ],
+      "type": "object"
+    },
+    "subjects": {
+      "type": "array",
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "kind": { "type": "string" },
+          "name": { "type": "string" }
+        },
+        "required": [
+          "kind",
+          "name"
+        ],
+        "type": "object"
+      }
+    }
+  },
+  "required": [
+    "apiVersion",
+    "kind",
+    "metadata",
+    "roleRef",
+    "subjects"
+  ],
+  "title": "RoleBinding",
+  "type": "object"
+}

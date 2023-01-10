@@ -1,0 +1,110 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "additionalProperties": false,
+  "description": "A Role object",
+  "properties": {
+    "apiVersion": {
+      "enum": [
+        "rbac.authorization.k8s.io/v1"
+      ],
+      "type": "string"
+    },
+    "kind": {
+      "enum": [
+        "Role"
+      ],
+      "type": "string"
+    },
+    "metadata": {
+      "additionalProperties": false,
+      "properties": {
+        "labels": {
+          "additionalProperties": false,
+          "properties": {
+            "app.kubernetes.io/class": {
+              "type": "string"
+            },
+            "app.kubernetes.io/component": {
+              "type": "string"
+            },
+            "app.kubernetes.io/instance": {
+              "type": "string"
+            },
+            "app.kubernetes.io/name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "app.kubernetes.io/class",
+            "app.kubernetes.io/component",
+            "app.kubernetes.io/instance",
+            "app.kubernetes.io/name"
+          ],
+          "type": "object"
+        },
+        "name": {
+          "type": "string"
+        },
+        "namespace": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "labels",
+        "name",
+        "namespace"
+      ],
+      "type": "object"
+    },
+    "rules": {
+      "type": "array",
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "apiGroups": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "resources": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "resourceNames": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true,
+            "minItems": 1
+          },
+          "verbs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "apiGroups",
+          "resources",
+          "verbs"
+        ],
+        "type": "object"
+      },
+      "uniqueItems": true,
+      "minItems": 1
+    }
+  },
+  "required": [
+    "apiVersion",
+    "kind",
+    "metadata",
+    "rules"
+  ],
+  "title": "Role",
+  "type": "object"
+}

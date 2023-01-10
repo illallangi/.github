@@ -1,0 +1,13 @@
+---
+shlink:
+- cloudflare: true
+  namespace: "coley-payload"
+unison:
+- namespace: "illallangi-payload"
+  tailscale: "unison"
+wordpress:
+- cloudflare: true
+  namespace: "coley-payload"
+zenphoto:
+- cloudflare: true
+  namespace: "coley-payload"

@@ -11,3 +11,4 @@ wordpress:
 zenphoto:
 - cloudflare: true
   namespace: "coley-payload"
+  tailscale: "photos"

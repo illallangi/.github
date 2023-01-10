@@ -5,6 +5,7 @@ group:
     source: templates/manifests/
   repos: |
     illallangi/deluge-manifests
+    illallangi/frigate-manifests
     illallangi/shlink-manifests
     illallangi/unison-manifests
     illallangi/wordpress-manifests

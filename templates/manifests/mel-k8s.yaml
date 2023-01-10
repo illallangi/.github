@@ -1,4 +1,42 @@
 ---
+deluge:
+- class: "anime"
+  discord_webhook: "https://discord.com/api/webhooks/1005316124625342485/EfBzChw3PnultBlXvcYwz3vJtlVygYq7_fMTHS1Om7Rdx1PNpNjQ7c03-Gu3wHlN4THl"
+  listen_port: 5800
+  namespace: "hoard-payload"
+- class: "audiobooks"
+  discord_webhook: "https://discord.com/api/webhooks/1005316124625342485/EfBzChw3PnultBlXvcYwz3vJtlVygYq7_fMTHS1Om7Rdx1PNpNjQ7c03-Gu3wHlN4THl"
+  listen_port: 5900
+  namespace: "hoard-payload"
+- class: "ebooks"
+  discord_webhook: "https://discord.com/api/webhooks/1005316124625342485/EfBzChw3PnultBlXvcYwz3vJtlVygYq7_fMTHS1Om7Rdx1PNpNjQ7c03-Gu3wHlN4THl"
+  listen_port: 6000
+  namespace: "hoard-payload"
+- class: "games"
+  discord_webhook: "https://discord.com/api/webhooks/1005316124625342485/EfBzChw3PnultBlXvcYwz3vJtlVygYq7_fMTHS1Om7Rdx1PNpNjQ7c03-Gu3wHlN4THl"
+  listen_port: 6100
+  namespace: "hoard-payload"
+- class: "movies"
+  discord_webhook: "https://discord.com/api/webhooks/1005316124625342485/EfBzChw3PnultBlXvcYwz3vJtlVygYq7_fMTHS1Om7Rdx1PNpNjQ7c03-Gu3wHlN4THl"
+  listen_port: 6200
+  namespace: "hoard-payload"
+- class: "music"
+  discord_webhook: "https://discord.com/api/webhooks/1005316124625342485/EfBzChw3PnultBlXvcYwz3vJtlVygYq7_fMTHS1Om7Rdx1PNpNjQ7c03-Gu3wHlN4THl"
+  listen_port: 6300
+  namespace: "hoard-payload"
+  queue_downloading: -1
+- class: "software"
+  discord_webhook: "https://discord.com/api/webhooks/1005316124625342485/EfBzChw3PnultBlXvcYwz3vJtlVygYq7_fMTHS1Om7Rdx1PNpNjQ7c03-Gu3wHlN4THl"
+  listen_port: 6400
+  namespace: "hoard-payload"
+- class: "sports"
+  discord_webhook: "https://discord.com/api/webhooks/1005316124625342485/EfBzChw3PnultBlXvcYwz3vJtlVygYq7_fMTHS1Om7Rdx1PNpNjQ7c03-Gu3wHlN4THl"
+  listen_port: 6500
+  namespace: "hoard-payload"
+- class: "television"
+  discord_webhook: "https://discord.com/api/webhooks/1005316124625342485/EfBzChw3PnultBlXvcYwz3vJtlVygYq7_fMTHS1Om7Rdx1PNpNjQ7c03-Gu3wHlN4THl"
+  listen_port: 6600
+  namespace: "hoard-payload"
 shlink:
 - cloudflare: true
   namespace: "coley-payload"

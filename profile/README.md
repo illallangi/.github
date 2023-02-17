@@ -28,13 +28,3 @@
 | - 🕳️ [DNS RPZ Record Controller](https://github.com/illallangi/dnsrpzrecord-controller) | - | - | kopf |
 | - 🚜 [Harvestr](https://github.com/illallangi/harvestr) | - | - | custom-entrypoint |
 | 🔭 [Core View](https://github.com/illallangi/coreview) | [python:3.10.7-alpine](https://hub.docker.com/r/_/python) | - | python |
-
-## Kubernetes Manifests
-
-| Application Name |
-|------------------|
-| [Deluge](https://github.com/illallangi/deluge-manifests)       |
-| [Shlink](https://github.com/illallangi/shlink-manifests)       |
-| [Unison](https://github.com/illallangi/unison-manifests)       |
-| [Wordpress](https://github.com/illallangi/wordpress-manifests) |
-| [ZenPhoto](https://github.com/illallangi/zenphoto-manifests)   |

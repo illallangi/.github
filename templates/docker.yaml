@@ -20,6 +20,7 @@ group:
     illallangi/python
     illallangi/rpzhole-controller
     illallangi/samba
+    illallangi/stdiscoserv
     illallangi/telegraf
     illallangi/telegraf-gazelle
     illallangi/telegraf-stockdata

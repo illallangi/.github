@@ -11,7 +11,7 @@ jobs:
       with:
         ASSIGNEES: andrewcole
         CONFIG_PATH: templates/docker.yaml
-        GH_PAT: ${{ secrets.GH_PAT }}
+        GH_PAT: ${{ secrets.PAT }}
 name: sync-docker
 on:
   push:

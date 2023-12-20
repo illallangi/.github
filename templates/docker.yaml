@@ -17,6 +17,7 @@ group:
     illallangi/head-server
     illallangi/icecast
     illallangi/icons
+    illallangi/init-jinja
     illallangi/python
     illallangi/rpzhole-controller
     illallangi/samba

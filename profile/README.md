@@ -16,7 +16,6 @@
 | - 🖼️ [Icons](https://github.com/illallangi/icons) | - | confd | s6 |
 | - ➕ [RPZ Hole Controller](https://github.com/illallangi/rpzhole-controller) | - | - | custom-entrypoint |
 | - 📂 [Samba](https://github.com/illallangi/samba) | - | confd | s6 |
-| - [stdiscoserv](https://github.com/illallangi/stdiscoserv) | - | confd | s6 |
 | - 🔦 [Telegraf](https://github.com/illallangi/telegraf) | - | - | custom-entrypoint |
 | &nbsp; - 🦒 [Telegraf Gazelle](https://github.com/illallangi/telegraf-gazelle) | - | - | - |
 | &nbsp; - 🧦 [Telegraf Stockdata](https://github.com/illallangi/telegraf-stockdata) | - | - | - |

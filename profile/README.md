@@ -23,3 +23,5 @@
 | - 🚚 [Deluge Distributr](https://github.com/illallangi/deluge-distributr) | 🧰 | - | custom-entrypoint |
 | - 🚜 [Harvestr](https://github.com/illallangi/harvestr) | - | - | custom-entrypoint |
 | 🔭 [Core View](https://github.com/illallangi/coreview) | [python:3.10.7-alpine](https://hub.docker.com/r/_/python) | - | python |
+| PHP | [php:8.2.7-apache](https://hub.docker.com/r/_/php) | - | - |
+| - X | [HeadServer](https://github.com/illallangi/head-server) | confd | s6 |

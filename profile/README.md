@@ -22,6 +22,5 @@
 | 🐍 [Python](https://github.com/illallangi/python) | - | - | python |
 | - 🏴‍☠️ [Deluge](https://github.com/illallangi/deluge) | 🧰 | confd | custom-entrypoint |
 | - 🚚 [Deluge Distributr](https://github.com/illallangi/deluge-distributr) | 🧰 | - | custom-entrypoint |
-| - 🕳️ [DNS RPZ Record Controller](https://github.com/illallangi/dnsrpzrecord-controller) | - | - | kopf |
 | - 🚜 [Harvestr](https://github.com/illallangi/harvestr) | - | - | custom-entrypoint |
 | 🔭 [Core View](https://github.com/illallangi/coreview) | [python:3.10.7-alpine](https://hub.docker.com/r/_/python) | - | python |

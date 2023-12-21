@@ -5,26 +5,20 @@ group:
     source: templates/docker/
   repos: |
     illallangi/caddy
-    illallangi/cloudflarerecord-controller
-    illallangi/coredns-notifier
     illallangi/coreview
     illallangi/debian
     illallangi/deluge
     illallangi/deluge-distributr
     illallangi/dimension
-    illallangi/dnsrpzrecord-controller
     illallangi/harvestr
     illallangi/head-server
-    illallangi/icecast
+    illallangi/hook-operator
     illallangi/icons
     illallangi/init-jinja
     illallangi/python
-    illallangi/rpzhole-controller
     illallangi/samba
-    illallangi/stdiscoserv
     illallangi/telegraf
     illallangi/telegraf-gazelle
     illallangi/telegraf-stockdata
     illallangi/telegraf-uptimerobot
     illallangi/toolbx
-    illallangi/zenphoto

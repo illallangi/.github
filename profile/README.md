@@ -12,7 +12,6 @@
 | - 🕸️ [Caddy](https://github.com/illallangi/caddy) | [go-httpbin:v2.4.1](https://hub.docker.com/r/mccutchen/go-httpbin)<br/>[caddy:2.5.2-builder](https://hub.docker.com/_/caddy) | confd | s6 |
 | - 🏡 [Dimension](https://github.com/illallangi/dimension) | - | confd | s6 |
 | - 🖼️ [Icons](https://github.com/illallangi/icons) | - | confd | s6 |
-| - ➕ [RPZ Hole Controller](https://github.com/illallangi/rpzhole-controller) | - | - | custom-entrypoint |
 | - 📂 [Samba](https://github.com/illallangi/samba) | - | confd | s6 |
 | - 🔦 [Telegraf](https://github.com/illallangi/telegraf) | - | - | custom-entrypoint |
 | &nbsp; - 🦒 [Telegraf Gazelle](https://github.com/illallangi/telegraf-gazelle) | - | - | - |

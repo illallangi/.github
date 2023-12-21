@@ -22,6 +22,8 @@
 | - 🏴‍☠️ [Deluge](https://github.com/illallangi/deluge) | 🧰 | confd | custom-entrypoint |
 | - 🚚 [Deluge Distributr](https://github.com/illallangi/deluge-distributr) | 🧰 | - | custom-entrypoint |
 | - 🚜 [Harvestr](https://github.com/illallangi/harvestr) | - | - | custom-entrypoint |
+| - [Init Jinja](https://github.com/illallangi/init-jinja) | - | - | jinja2 |
 | 🔭 [Core View](https://github.com/illallangi/coreview) | [python:3.10.7-alpine](https://hub.docker.com/r/_/python) | - | python |
 | PHP | [php:8.2.7-apache](https://hub.docker.com/r/_/php) | - | - |
-| - X | [HeadServer](https://github.com/illallangi/head-server) | confd | s6 |
+| - [HeadServer](https://github.com/illallangi/head-server) | - | confd | s6 |
+| [Hook Operator](https://github.com/illallangi/hook-operator) | shell-operator<br/>alpine | - | tini |

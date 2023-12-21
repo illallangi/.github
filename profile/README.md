@@ -21,7 +21,6 @@
 | &nbsp; - 🧦 [Telegraf Stockdata](https://github.com/illallangi/telegraf-stockdata) | - | - | - |
 | &nbsp; - 🤖 [Telegraf UptimeRobot](https://github.com/illallangi/telegraf-uptimerobot) | - | - | - |
 | - 🧰 [Toolbx](https://github.com/illallangi/toolbx) | [healthz:2022-03-11T125439Z](https://github.com/binkhq/healthz) | - | dumb-init |
-| - [ZenPhoto](https://github.com/illallangi/zenphoto) | caddy | - | s6 |
 | 🐍 [Python](https://github.com/illallangi/python) | - | - | python |
 | - 🌥️ [CloudFlare Record Controller](https://github.com/illallangi/cloudflarerecord-controller) | - | - | kopf |
 | - 🏴‍☠️ [Deluge](https://github.com/illallangi/deluge) | 🧰 | confd | custom-entrypoint |

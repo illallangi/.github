@@ -6,14 +6,21 @@ jobs:
     - uses: actions/checkout@v4
       with:
         fetch-depth: "0"
-    - name: Run GitHub File Sync
+    - name: Common Templates
+      uses: BetaHuhn/repo-file-sync-action@v1
+      with:
+        ASSIGNEES: andrewcole
+        CONFIG_PATH: templates/common.yaml
+        GH_PAT: ${{ secrets.PAT }}
+        PR_LABELS: automerge
+    - name: Docker Templates
       uses: BetaHuhn/repo-file-sync-action@v1
       with:
         ASSIGNEES: andrewcole
         CONFIG_PATH: templates/docker.yaml
         GH_PAT: ${{ secrets.PAT }}
         PR_LABELS: automerge
-name: Sync Docker Template
+name: Sync Templates
 on:
   push:
     branches:

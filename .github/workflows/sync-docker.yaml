@@ -1,6 +1,6 @@
 ---
 jobs:
-  release:
+  sync:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
@@ -12,7 +12,8 @@ jobs:
         ASSIGNEES: andrewcole
         CONFIG_PATH: templates/docker.yaml
         GH_PAT: ${{ secrets.PAT }}
-name: sync-docker
+        PR_LABELS: automerge
+name: Sync Docker Template
 on:
   push:
     branches:

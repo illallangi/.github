@@ -10,7 +10,7 @@
 |------------|------------|-------------------|--------------------------|-------
 | 🔭 [Core View](https://github.com/illallangi/coreview) | [Python](https://hub.docker.com/r/_/python) | - | - | python |
 | 🏴‍☠️ [Deluge](https://github.com/illallangi/deluge) | [Python](https://hub.docker.com/r/_/python) | - | confd | custom-entrypoint |
-| 🚚 [Deluge Distributr](https://github.com/illallangi/deluge-distributr) | [Python](https://hub.docker.com/r/_/python) | 🧰 [Toolbx](https://github.com/illallangi/toolbx) | - | custom-entrypoint |
+| 🚚 [Deluge Distributr](https://github.com/illallangi/deluge-distributr) | [Python](https://hub.docker.com/r/_/python) | - | - | custom-entrypoint |
 | 🏡 [Dimension](https://github.com/illallangi/dimension) | [Debian](https://hub.docker.com/_/debian) | - | confd | s6 |
 | 🚜 [Harvestr](https://github.com/illallangi/harvestr) | [Python](https://hub.docker.com/r/_/python) | - | - | custom-entrypoint |
 | 🗣️ [HeadServer](https://github.com/illallangi/head-server) | [PHP](https://hub.docker.com/r/_/php) | - | confd | s6 |

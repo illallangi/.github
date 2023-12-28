@@ -1,23 +1,31 @@
 ---
 jobs:
-  merge:
-    if: contains(github.event.pull_request.labels.*.name, 'automerge')
+  automerge:
     runs-on: ubuntu-latest
     steps:
-    - id: metadata
-      name: Dependabot metadata
-      uses: dependabot/fetch-metadata@v1
-      with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
     - env:
-        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-        PR_URL: ${{github.event.pull_request.html_url}}
-      name: Approve a Pull Request
-      run: gh pr review --approve "$PR_URL"
-name: Auto Merge Pull Request
+        GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+        MERGE_DELETE_BRANCH: "true"
+        MERGE_FORKS: "false"
+      id: automerge
+      name: automerge
+      uses: "pascalgn/automerge-action@v0.15.6"
+name: Automatically Merge Pull Requests
 on:
+  check_suite:
+    types:
+    - completed
   pull_request:
-    branches:
-    - development
-permissions:
-  pull-requests: write
+    types:
+    - labeled
+    - unlabeled
+    - synchronize
+    - opened
+    - edited
+    - ready_for_review
+    - reopened
+    - unlocked
+  pull_request_review:
+    types:
+      - submitted
+  status: {}

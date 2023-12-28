@@ -15,6 +15,20 @@ jobs:
       uses: alexwilson/enable-github-automerge-action@main
 name: Automatically Merge Pull Requests
 on:
-  pull_request_target:
+  check_suite:
+    types:
+    - completed
+  pull_request:
     types:
     - labeled
+    - unlabeled
+    - synchronize
+    - opened
+    - edited
+    - ready_for_review
+    - reopened
+    - unlocked
+  pull_request_review:
+    types:
+    - submitted
+  status: {}

@@ -13,7 +13,7 @@
 | 🚚 [Deluge Distributr](https://github.com/illallangi/deluge-distributr) | [Python](https://hub.docker.com/r/_/python) | - | - | custom-entrypoint |
 | 🏡 [Dimension](https://github.com/illallangi/dimension) | [Debian](https://hub.docker.com/_/debian) | - | confd | s6 |
 | 🚜 [Harvestr](https://github.com/illallangi/harvestr) | [Python](https://hub.docker.com/r/_/python) | - | - | custom-entrypoint |
-| 🗣️ [HeadServer](https://github.com/illallangi/head-server) | [PHP](https://hub.docker.com/r/_/php) | - | confd | s6 |
+| 🗣️ [Head Server](https://github.com/illallangi/head-server) | [PHP](https://hub.docker.com/r/_/php) | - | confd | s6 |
 | 🪝 [Hook Operator](https://github.com/illallangi/hook-operator) | [Alpine](https://hub.docker.com/_/alpine) | [Shell Operator](https://github.com/flant/shell-operator) | - | tini |
 | 🖼️ [Icons](https://github.com/illallangi/icons) | [Debian](https://hub.docker.com/_/debian) | - | confd | s6 |
 | 🥷 [Init Jinja](https://github.com/illallangi/init-jinja) | [Python](https://hub.docker.com/r/_/python) | - | - | jinja2 |

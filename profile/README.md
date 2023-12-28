@@ -17,7 +17,7 @@
 | 🪝 [Hook Operator](https://github.com/illallangi/hook-operator) | [Alpine](https://hub.docker.com/_/alpine) | [Shell Operator](https://github.com/flant/shell-operator) | - | tini |
 | 🖼️ [Icons](https://github.com/illallangi/icons) | [Debian](https://hub.docker.com/_/debian) | - | confd | s6 |
 | 🥷 [Init Jinja](https://github.com/illallangi/init-jinja) | [Python](https://hub.docker.com/r/_/python) | - | - | jinja2 |
-| 🦒 [Telegraf Gazelle](https://github.com/illallangi/telegraf-gazelle) | 🔦 [Telegraf](https://github.com/illallangi/telegraf) | - | - | - |
-| 🧦 [Telegraf Stockdata](https://github.com/illallangi/telegraf-stockdata) | 🔦 [Telegraf](https://github.com/illallangi/telegraf) | - | - | - |
-| 🤖 [Telegraf UptimeRobot](https://github.com/illallangi/telegraf-uptimerobot) | 🔦 [Telegraf](https://github.com/illallangi/telegraf) | - | - | - |
+| 🦒 [Telegraf Gazelle](https://github.com/illallangi/telegraf-gazelle) | [Debian](https://hub.docker.com/_/debian) | - | - | custom-entrypoint |
+| 🧦 [Telegraf Stockdata](https://github.com/illallangi/telegraf-stockdata) | [Debian](https://hub.docker.com/_/debian) | - | - | custom-entrypoint |
+| 🤖 [Telegraf UptimeRobot](https://github.com/illallangi/telegraf-uptimerobot) | [Debian](https://hub.docker.com/_/debian) | - | - | custom-entrypoint |
 | 🧰 [Toolbx](https://github.com/illallangi/toolbx) | [Debian](https://hub.docker.com/_/debian) | [healthz](https://github.com/binkhq/healthz) | - | dumb-init |

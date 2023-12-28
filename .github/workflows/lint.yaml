@@ -1,6 +1,6 @@
 ---
 jobs:
-  actions:  # https://github.com/reviewdog/action-actionlint
+  lint-actions:  # https://github.com/reviewdog/action-actionlint
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
@@ -9,7 +9,7 @@ jobs:
         fail_on_error: "true"
         filter_mode: nofilter
     - uses: reviewdog/action-suggester@v1
-  spelling:  # https://github.com/reviewdog/action-misspell
+  lint-spelling:  # https://github.com/reviewdog/action-misspell
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
@@ -21,7 +21,7 @@ jobs:
         fail_on_error: "true"
         filter_mode: nofilter
     - uses: reviewdog/action-suggester@v1
-  yaml:  # https://github.com/reviewdog/action-yamllint
+  lint-yaml:  # https://github.com/reviewdog/action-yamllint
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4

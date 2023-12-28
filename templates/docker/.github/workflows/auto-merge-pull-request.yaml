@@ -4,12 +4,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - env:
-        GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         MERGE_DELETE_BRANCH: "true"
         MERGE_FORKS: "false"
       id: automerge
-      name: automerge
-      uses: "pascalgn/automerge-action@v0.15.6"
+      name: Auto Merge
+      uses: pascalgn/automerge-action@v0.15.6
 name: Automatically Merge Pull Requests
 on:
   check_suite:
@@ -27,5 +27,5 @@ on:
     - unlocked
   pull_request_review:
     types:
-      - submitted
+    - submitted
   status: {}

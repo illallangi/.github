@@ -8,8 +8,8 @@
 
 | Image Name | Referenced Images | Configuration Management | PID 1
 |------------|-------------------|--------------------------|-------
+| 🏡 [Dimension](https://github.com/illallangi/dimension) | [Debian Bookworm](https://hub.docker.com/_/debian) | confd | s6 |
 | 🐧 [Debian](https://github.com/illallangi/debian) | - | - | s6 |
-| - 🏡 [Dimension](https://github.com/illallangi/dimension) | - | confd | s6 |
 | - 🖼️ [Icons](https://github.com/illallangi/icons) | - | confd | s6 |
 | - 🔦 [Telegraf](https://github.com/illallangi/telegraf) | - | - | custom-entrypoint |
 | &nbsp; - 🦒 [Telegraf Gazelle](https://github.com/illallangi/telegraf-gazelle) | - | - | - |

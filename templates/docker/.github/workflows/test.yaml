@@ -2,8 +2,8 @@
 jobs:
   test:
     concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
       cancel-in-progress: true
+      group: ${{ github.workflow }}-${{ github.ref }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4

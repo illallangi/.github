@@ -1,6 +1,9 @@
 ---
 jobs:
   automerge:
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+      cancel-in-progress: true
     runs-on: ubuntu-latest
     steps:
     - env:

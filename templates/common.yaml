@@ -1,0 +1,20 @@
+---
+group:
+  files:
+  - dest: .
+    source: templates/common/
+  repos: |
+    illallangi/.github
+    illallangi/coreview
+    illallangi/deluge
+    illallangi/deluge-distributr
+    illallangi/dimension
+    illallangi/harvestr
+    illallangi/head-server
+    illallangi/hook-operator
+    illallangi/icons
+    illallangi/init-jinja
+    illallangi/telegraf-gazelle
+    illallangi/telegraf-stockdata
+    illallangi/telegraf-uptimerobot
+    illallangi/toolbx

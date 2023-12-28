@@ -1,7 +1,7 @@
 ---
 jobs:
   merge:
-    if: github.actor == 'dependabot[bot]'
+    if: contains(github.event.pull_request.labels.*.name, 'automerge')
     runs-on: ubuntu-latest
     steps:
     - id: metadata
@@ -12,9 +12,12 @@ jobs:
     - env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         PR_URL: ${{github.event.pull_request.html_url}}
-      name: Approve a PR
+      name: Approve a Pull Request
       run: gh pr review --approve "$PR_URL"
-name: Dependabot Auto Merge
-on: pull_request
+name: Auto Merge Pull Request
+on:
+  pull_request:
+    branches:
+    - development
 permissions:
   pull-requests: write

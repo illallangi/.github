@@ -3,9 +3,9 @@ updates:
 - assignees:
   - andrewcole
   directory: /
-  open-pull-requests-limit: 10
   labels:
   - automerge
+  open-pull-requests-limit: 10
   package-ecosystem: docker
   schedule:
     interval: daily

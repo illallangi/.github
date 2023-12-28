@@ -4,9 +4,7 @@ group:
   - dest: .
     source: templates/docker/
   repos: |
-    illallangi/caddy
     illallangi/coreview
-    illallangi/debian
     illallangi/deluge
     illallangi/deluge-distributr
     illallangi/dimension
@@ -15,9 +13,6 @@ group:
     illallangi/hook-operator
     illallangi/icons
     illallangi/init-jinja
-    illallangi/python
-    illallangi/samba
-    illallangi/telegraf
     illallangi/telegraf-gazelle
     illallangi/telegraf-stockdata
     illallangi/telegraf-uptimerobot

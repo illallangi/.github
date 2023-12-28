@@ -8,14 +8,14 @@
 
 | Image Name | Referenced Images | Configuration Management | PID 1
 |------------|-------------------|--------------------------|-------
-| 🏡 [Dimension](https://github.com/illallangi/dimension) | [Debian Bookworm](https://hub.docker.com/_/debian) | confd | s6 |
-| 🖼️ [Icons](https://github.com/illallangi/icons) | [Debian Bookworm](https://hub.docker.com/_/debian) | confd | s6 |
+| 🏡 [Dimension](https://github.com/illallangi/dimension) | [Debian](https://hub.docker.com/_/debian) | confd | s6 |
+| 🖼️ [Icons](https://github.com/illallangi/icons) | [Debian](https://hub.docker.com/_/debian) | confd | s6 |
+| 🧰 [Toolbx](https://github.com/illallangi/toolbx) | [Debian](https://hub.docker.com/_/debian)<br/>[healthz](https://github.com/binkhq/healthz) | - | dumb-init |
 | 🐧 [Debian](https://github.com/illallangi/debian) | - | - | s6 |
 | - 🔦 [Telegraf](https://github.com/illallangi/telegraf) | - | - | custom-entrypoint |
 | &nbsp; - 🦒 [Telegraf Gazelle](https://github.com/illallangi/telegraf-gazelle) | - | - | - |
 | &nbsp; - 🧦 [Telegraf Stockdata](https://github.com/illallangi/telegraf-stockdata) | - | - | - |
 | &nbsp; - 🤖 [Telegraf UptimeRobot](https://github.com/illallangi/telegraf-uptimerobot) | - | - | - |
-| - 🧰 [Toolbx](https://github.com/illallangi/toolbx) | [healthz:2022-03-11T125439Z](https://github.com/binkhq/healthz) | - | dumb-init |
 | Python | [python](https://hub.docker.com/r/_/python) | - | - |
 | - 🏴‍☠️ [Deluge](https://github.com/illallangi/deluge) | 🧰 | confd | custom-entrypoint |
 | - 🚚 [Deluge Distributr](https://github.com/illallangi/deluge-distributr) | 🧰 | - | custom-entrypoint |

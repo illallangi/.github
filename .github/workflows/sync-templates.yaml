@@ -10,6 +10,7 @@ jobs:
       uses: BetaHuhn/repo-file-sync-action@v1
       with:
         ASSIGNEES: andrewcole
+        COMMIT_BODY: "Synced common templates #patch"
         CONFIG_PATH: templates/common.yaml
         GH_PAT: ${{ secrets.PAT }}
         PR_LABELS: automerge
@@ -17,6 +18,7 @@ jobs:
       uses: BetaHuhn/repo-file-sync-action@v1
       with:
         ASSIGNEES: andrewcole
+        COMMIT_BODY: "Synced docker templates #patch"
         CONFIG_PATH: templates/docker.yaml
         GH_PAT: ${{ secrets.PAT }}
         PR_LABELS: automerge

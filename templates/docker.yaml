@@ -14,6 +14,7 @@ group:
     illallangi/harvestr
     illallangi/head-server
     illallangi/init-jinja
+    illallangi/komoot
     illallangi/telegraf-gazelle
     illallangi/telegraf-stockdata
     illallangi/telegraf-uptimerobot

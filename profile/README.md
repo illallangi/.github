@@ -4,7 +4,7 @@
 
 [All open PRs](https://github.com/pulls?q=is%3Aopen+is%3Apr+org%3Aillallangi)
 
-## Application Images
+## Application Images (13)
 
 | Image Name | Base Image | Referenced Images | Configuration Management | PID 1 | Build
 |------------|------------|-------------------|--------------------------|-------| ------
@@ -20,3 +20,10 @@
 | 🧦 [Telegraf Stockdata](https://github.com/illallangi/telegraf-stockdata) | [Debian](https://hub.docker.com/_/debian) | - | - | custom-entrypoint | ![test workflow](https://github.com/illallangi/telegraf-stockdata/actions/workflows/test.yaml/badge.svg) |
 | 🤖 [Telegraf UptimeRobot](https://github.com/illallangi/telegraf-uptimerobot) | [Debian](https://hub.docker.com/_/debian) | - | - | custom-entrypoint | ![test workflow](https://github.com/illallangi/telegraf-uptimerobot/actions/workflows/test.yaml/badge.svg) |
 | 🧰 [Toolbx](https://github.com/illallangi/toolbx) | [Debian](https://hub.docker.com/_/debian) | [healthz](https://github.com/binkhq/healthz) | - | dumb-init | ![test workflow](https://github.com/illallangi/toolbx/actions/workflows/test.yaml/badge.svg) |
+
+## Web Sites (2)
+
+| Repository | URL |
+|------------|-----|
+| [illallangi.github.io](https://github.com/illallangi/illallangi.github.io) | [https://illallangi.enterprises](https://illallangi.enterprises) |
+| [status](https://github.com/illallangi/status) | [https://status.illallangi.enterprises](https://status.illallangi.enterprises) |

@@ -27,3 +27,13 @@
 |------------|-----|
 | [illallangi.github.io](https://github.com/illallangi/illallangi.github.io) | [https://illallangi.enterprises](https://illallangi.enterprises) |
 | [status](https://github.com/illallangi/status) | [https://status.illallangi.enterprises](https://status.illallangi.enterprises) |
+
+## CLI Tools (5)
+
+| Repository | Tool |
+|------------|------|
+| [cloudflare-tools](https://github.com/illallangi/cloudflare-tools) | cloudflare-tools |
+| [http-tools](https://github.com/illallangi/http-tools) | http-tools |
+| [intune-tools](https://github.com/illallangi/intune-tools) | intune-tools |
+| [mastodon-tools](https://github.com/illallangi/mastodon-tools) | mastodon-tools |
+| [torrent-tools](https://github.com/illallangi/torrent-tools) | torrent-tools |

@@ -28,12 +28,13 @@
 | [illallangi.github.io](https://github.com/illallangi/illallangi.github.io) | [https://illallangi.enterprises](https://illallangi.enterprises) |
 | [status](https://github.com/illallangi/status) | [https://status.illallangi.enterprises](https://status.illallangi.enterprises) |
 
-## CLI Tools (5)
+## Python Modules (6)
 
-| Repository | Tool |
-|------------|------|
-| [cloudflare-tools](https://github.com/illallangi/cloudflare-tools) | cloudflare-tools |
-| [http-tools](https://github.com/illallangi/http-tools) | http-tools |
-| [intune-tools](https://github.com/illallangi/intune-tools) | intune-tools |
-| [mastodon-tools](https://github.com/illallangi/mastodon-tools) | mastodon-tools |
-| [torrent-tools](https://github.com/illallangi/torrent-tools) | torrent-tools |
+| Repository | PyPi Module | CLI Tool |
+|------------|------|-----|
+| [python-cloudflare](https://github.com/illallangi/python-cloudflare) | [illallangi-cloudflare](https://pypi.org/project/illallangi-cloudflare/) | cloudflare-tools |
+| [python-http](https://github.com/illallangi/python-http) | [illallangi-http](https://pypi.org/project/illallangi-http/) | http-tools |
+| [python-intune](https://github.com/illallangi/python-intune) | [illallangi-intune](https://pypi.org/project/illallangi-intune/) | intune-tools |
+| [python-mastodon](https://github.com/illallangi/python-mastodon) | [illallangi-mastodon](https://pypi.org/project/illallangi-mastodon/) | mastodon-tools |
+| [python-torrent](https://github.com/illallangi/python-torrent) | [illallangi-torrent](https://pypi.org/project/illallangi-torrent/) | torrent-tools |
+| [python-tripit](https://github.com/illallangi/python-tripit) | [illallangi-tripit](https://pypi.org/project/illallangi-tripit/) | tripit-tools |

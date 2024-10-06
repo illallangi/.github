@@ -28,7 +28,9 @@
 | [illallangi.github.io](https://github.com/illallangi/illallangi.github.io) | [https://illallangi.enterprises](https://illallangi.enterprises) |
 | [status](https://github.com/illallangi/status) | [https://status.illallangi.enterprises](https://status.illallangi.enterprises) |
 
-## Python Modules (6)
+## Python Modules (8)
+
+### Command Line Tools and Libraries (6)
 
 | Repository | PyPi Module | CLI Tool |
 |------------|------|-----|
@@ -38,3 +40,10 @@
 | [python-mastodon](https://github.com/illallangi/python-mastodon) | [illallangi-mastodon](https://pypi.org/project/illallangi-mastodon/) | mastodon-tools |
 | [python-torrent](https://github.com/illallangi/python-torrent) | [illallangi-torrent](https://pypi.org/project/illallangi-torrent/) | torrent-tools |
 | [python-tripit](https://github.com/illallangi/python-tripit) | [illallangi-tripit](https://pypi.org/project/illallangi-tripit/) | tripit-tools |
+
+### Django Modules (2)
+
+| Repository | PyPi Module |
+|------------|------|
+| [django-mastodon](https://github.com/illallangi/django-mastodon) | [illallangi-django-mastodon](https://pypi.org/project/illallangi-django-mastodon/) |
+| [django-swimming](https://github.com/illallangi/django-swimming) | [illallangi-django-swimming](https://pypi.org/project/illallangi-django-swimming/) |
